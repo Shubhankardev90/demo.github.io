@@ -47,7 +47,7 @@ body{
    padding:20px 10px;
 }
 .specification .spec{
-    border-right: 3px solid yellow;
+    border-right: 3px solid rgba(255, 132, 0, 0.775);
     padding-right: 10px;
     margin-left: 10px;
 }
@@ -55,11 +55,11 @@ body{
     border: none;
 }
 .specification .spec h6{
-    color: yellow;
+    color: rgba(255, 132, 0, 0.775);
 }
 header{
 width: 100%;
-background-color: yellow;
+background-color: rgba(255, 132, 0, 0.775);
 display:flex;
 justify-content:space-between;
 color: black;
@@ -89,7 +89,7 @@ footer{
     justify-content:space-evenly;
     width: 100vw;
     display:flex;
-    background-color: yellow;
+    background-color: rgba(255, 132, 0, 0.775);
 }
 footer a{
     display:flex;
@@ -163,7 +163,7 @@ footer a{
     height:120px;
 }
 .price{
-    color: yellow;
+    color: rgba(255, 132, 0, 0.775);
     font-weight: 500;
     position: relative;
 }
@@ -214,7 +214,7 @@ footer a{
     font-size:18px;
 }
 .menuContainer a:hover{
-    color: yellow;
+    color: rgba(255, 132, 0, 0.775);
 }
 .menuContainer .logo{
     padding:10px;
