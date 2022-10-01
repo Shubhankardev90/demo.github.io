@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+body{
+    height:100vh !important;
+}
+/* login */
+
+.login{
+    height:100vh;
+    width: 100vw;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../img/login-bg.jpg');
+    background-size: cover;
+}
+.login form{
+    padding:20px;
+    /* background-color: black; */
+    border-radius: 5px;
+    position:relative;
+}
+.login form label{
+    color: black;
+    font-weight: 500;
+    font-size:18px;
+}
+.login .btn{
+    font-weight: 500;
+    background-color: rgba(255, 132, 0, 0.775);
+    color: black;
+}
+.specification{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+   width:100vw;
+   left: 0;
+   padding:20px 10px;
+}
+.specification .spec{
+    border-right: 3px solid yellow;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.specification .spec:last-of-type{
+    border: none;
+}
+.specification .spec h6{
+    color: yellow;
+}
+header{
+width: 100%;
+background-color: yellow;
+display:flex;
+justify-content:space-between;
+color: black;
+padding:10px;
+align-items: center;
+}
+header .fa-bars{
+    font-size: 30px;
+}
+
+header .rupee{
+    font-size: 1.1rem;
+    display:flex;
+    align-items: center;
+    column-gap: 5px;
+    border: 1px solid black;
+    padding:10px 10px; 
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    padding:13px 0;
+    justify-content:space-evenly;
+    width: 100vw;
+    display:flex;
+    background-color: yellow;
+}
+footer a{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
+.categories a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+}
+.categories .card{
+    height: 150px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 68, 0,0.8);
+    color:white;
+}
+.left{
+    width: 100px;
+    padding:10px 5px;
+    flex:1;
+}
+.left img{
+    border-radius: 50%;
+    padding:10px;
+}
+.left .stars{
+    font-size: 12px;
+    text-align: center;
+    color: gold;
+}
+.productCard .card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.right{
+    margin-left: 10px;
+    flex:2;
+}
+.right .name{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.right table th{
+    color: #7c7c7c;
+    font-weight: 400;
+}
+.right table{
+    font-size:14px;
+}
+.chat{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    padding-right: 10px;
+    height:120px;
+}
+.price{
+    color: yellow;
+    font-weight: 500;
+    position: relative;
+}
+
+.ques{
+    background-color: #7c7c7c4c;
+    margin-bottom: 10px;
+    padding:10px;
+    width: 80%;
+    font-weight: 500;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.reply{
+    margin-bottom: 10px;
+    padding:10px;
+    width: 80%;
+    font-weight: 500;
+    margin-left: auto;
+    text-align: right;
+    background-color: #7c7c7c1c;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+.fa-inr{
+    font-size:13px;
+}
+.totalServices p{
+    font-size: 12px;
+    text-align: center;
+}
+.menuContainer{
+    position:absolute;
+    height: 100vh;
+    background:white;
+    z-index: 999;
+    top: 0;
+    left: -100vw;
+    width: 80vw;
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    padding:10px;
+}
+.menuContainer a{
+    color: black;
+    text-decoration: none;
+    font-size:18px;
+}
+.menuContainer a:hover{
+    color: yellow;
+}
+.menuContainer .logo{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.menuContainer .logo p{
+    color: black;
+    font-weight: 500;
+}
+.menuContainer .logo img{
+    height: 60px;
+    border-radius: 10px;
+}
+.socialLinks{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}
+.socialLinks .fa-whatsapp{
+    color: green;
+    font-size: 40px;
+}
+.socialLinks .fa-facebook{
+    color: blue;
+    font-size: 40px;
+}
+.socialLinks .fa-twitter{
+    color: skyblue;
+    font-size: 40px;
+}
+.socialLinks .fa-instagram{
+    color:purple;
+    font-size: 40px;
+}
+.menuBg{
+    height: 100vh;
+    width:100vw;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.681);
+    top: 0;
+    left: -100vw;
+}
